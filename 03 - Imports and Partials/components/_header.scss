@@ -1,0 +1,38 @@
+//header section
+main {
+    height: 100vh;
+    background: url(media/photo-1741800465167-0c276ad75e08.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+        font-size: 3rem;
+        color: white;
+    }
+
+    p {
+        color: rgb(229, 232, 234);
+        max-width: 600px;
+        margin: 10px;
+        line-height: 25px;
+        font-size: 17px;
+        font-family: sans-serif;
+    }
+
+    button {
+        background: transparent;
+        border: none;
+        background: white;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 5px;
+        font-weight: 500;
+    }
+}

@@ -1,0 +1,22 @@
+//Just for fun with loops and variables please ignore this code and move to the next one :)
+//**1st 
+
+// @for $index from 1 through 10 {
+//     .class-#{$index} {
+//         width: 100px* $index;
+//         background: rgb(random(255), random(255), random(255));
+//         margin:$index + px;
+//         padding:5px* $index;
+//     }
+// }
+
+//**2nd 
+
+@for $index from 1 through 5 {
+    .list-#{$index} {
+        width: 100px * $index;
+        background: darken(crimson, $index * 7%);
+        margin: $index + px;
+        padding: 10px * $index;
+    }
+}

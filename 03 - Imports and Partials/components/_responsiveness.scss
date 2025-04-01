@@ -1,0 +1,75 @@
+@media screen and (max-width: 750px) {
+    nav {
+        white-space: nowrap;
+        font-size: 0.7rem;
+        width: 100vw;
+    ul {
+        margin-right: 0;
+    }
+    }
+    .logo-container {
+        margin-left: 25px;
+    }
+    .card {
+        height: auto;
+    }
+    .card .card-content {
+        text-align: center;
+        order: 1;
+        height: 350px;
+        margin: 0;
+        padding: 15px;
+    }
+    .card-heading {
+        margin-top: 60px;
+    }
+    .card .card-content p {
+        width: 400px;
+    }
+    .card .card-img {
+        order: 2;
+    }
+    .card .card-img.one {
+        padding-top: 35px;
+    }
+    .gallery {
+        margin-top: 150px;
+    }
+    .gallery .gallery-container {
+        margin: 0 2rem;
+    }
+    .gallery h1 {
+        margin-bottom: 4rem;
+    }
+    .gallery-img {
+        width: 100%;
+        height: 100%;
+    }
+    footer {
+        height: 90vh;
+        flex-direction: column;
+        margin-bottom: 70px;
+    }
+    .footer-content {
+        text-align: center;
+    }
+    .footer-para {
+        width: 500px;
+        text-align: center;
+        padding-left: 65px;
+    }
+    form {
+        margin-top: 40px;
+        padding-bottom: 20px;
+        width: 400px;
+    }
+    input {
+        width: 400px;
+        text-align: center;
+        align-items: center;
+    }
+    textarea {
+        place-content: center;
+        text-align: center;
+    }
+}

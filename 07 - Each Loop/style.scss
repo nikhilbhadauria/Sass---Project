@@ -1,0 +1,22 @@
+$colors: yellow orange crimson red;
+
+@each $color in $colors {
+    .#{$color} {
+        background: "" + $color;
+    }
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+div {
+    height: 100vh;
+    flex: 1 1 auto;
+}

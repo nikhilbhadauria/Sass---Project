@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+body {
+  background: linear-gradient(#D9AFD9, #97D9E1);
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  background: #c8deff;
+  max-width: 280px;
+  padding: 20px;
+  line-height: 24px;
+  margin: 4rem;
+  position: relative;
+}
+
+.img {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: 5px solid white;
+  right: -30px;
+  bottom: 110px;
+}
+
+.img-one {
+  background: url(media/photo-1438761681033-6461ffad8d80.avif) no-repeat center/cover;
+}
+
+.img-two {
+  background: url(media/photo-1519085360753-af0119f7cbe7.avif) no-repeat top/cover;
+}
+
+.img-three {
+  background: url(media/photo-1614204424926-196a80bf0be8.avif) no-repeat center/cover;
+}
+
+.img-four {
+  background: url(media/photo-1674847059298-765afa839ec7.avif) no-repeat top/cover;
+}/*# sourceMappingURL=style.css.map */

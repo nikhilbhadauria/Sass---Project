@@ -1,0 +1,25 @@
+//gallery
+.gallery {
+    margin-top: 3rem;
+
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+        font-family: sans-serif;
+        margin-bottom: 6rem;
+    }
+
+    .gallery-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin: 0 6rem;
+        
+        .gallery-img {
+            width: 100%;
+            height: 100%; /* Or your preferred height */
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    }
+}

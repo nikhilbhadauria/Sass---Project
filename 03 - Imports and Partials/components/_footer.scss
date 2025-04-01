@@ -1,0 +1,54 @@
+//Footer
+footer {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .footer-content {
+        margin-top: 80px;
+        width: 600px;
+        height: 190px;
+        
+        .footer-heading {
+            font-size: 3rem;
+        }
+        .footer-para {
+            max-width: 600px;
+            margin: 10px;
+            line-height: 25px;
+        }
+    }
+    input {
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        border: none;
+        background: rgb(204, 230, 240);
+    }
+        textarea {
+            padding: 10px 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            border: none;
+            background: rgb(204, 230, 240);
+            resize: none;
+            max-width: 100%;
+            min-width: 100%;
+            min-height: 100px;
+            max-height: 100px;
+        }
+        a {
+            text-decoration: none;
+            background: black;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: 500;
+            margin-left: 130px;
+        }
+        form {
+            padding: 50px 0;
+        }
+}

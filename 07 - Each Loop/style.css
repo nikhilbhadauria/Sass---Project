@@ -1,0 +1,30 @@
+.yellow {
+  background: "yellow";
+}
+
+.orange {
+  background: "orange";
+}
+
+.crimson {
+  background: "crimson";
+}
+
+.red {
+  background: "red";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+}
+
+div {
+  height: 100vh;
+  flex: 1 1 auto;
+}/*# sourceMappingURL=style.css.map */
